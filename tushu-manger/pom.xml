@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.jing</groupId>
+		<artifactId>jing-parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<groupId>com.jing</groupId>
+	<artifactId>tushu-manger</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<!-- 依赖管理 -->
+	<dependencies>
+		<dependency>
+			<groupId>com.jing</groupId>
+			<artifactId>jing-common</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+	<modules>
+		<module>tushu-pojo</module>
+		<module>tushu-mapper</module>
+		<module>tushu-service</module>
+		<module>tushu-web</module>
+	</modules>
+</project>
